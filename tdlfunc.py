@@ -65,7 +65,7 @@ def removeTask():
 
         # searching through data matching with input then removing it
         for pair in data[1:]:
-            if pair[0].lower()==find:
+            if pair[0].lower()==find.lower():
                 data.remove(pair)
                 flag=True
                 break
